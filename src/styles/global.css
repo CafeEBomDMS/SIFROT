@@ -88,7 +88,6 @@ body {
 /* ====== Card ====== */
 .card {
   background: var(--card);
-  width: min(880px, 100%);
   border-radius: 16px;
   padding: 24px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
@@ -150,10 +149,6 @@ body {
   color: var(--muted);
 }
 
-/* formulário */
-.form {
-  margin-top: 8px;
-}
 .grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

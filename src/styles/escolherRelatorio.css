@@ -1,0 +1,35 @@
+.relatorios-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap; /* permite quebrar linha se a tela for pequena */
+}
+
+.relatorio-card {
+  background: #1e3a8a;
+  color: #fff;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+  /* tamanho fixo */
+  width: 180px;   /* largura fixa */
+  height: 200px;  /* altura fixa */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centraliza verticalmente */
+  align-items: center;     /* centraliza horizontalmente */
+}
+
+.relatorio-card img {
+  width: 64px;   /* tamanho fixo para todos os ícones */
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: -20px;
+  margin-top: -30px;
+}

@@ -1,0 +1,69 @@
+.content-login {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical   */
+  padding: 32px;
+  min-height: 100vh;       /* ocupa toda a altura da tela */
+}
+
+
+
+.ms-login-btn-login {
+  transform: scale(0.7);
+  border: none;         /* tira a borda padrão */
+  padding: 0;           /* remove o espaço interno do botão */
+  background: none;     /* sem fundo cinza */
+  cursor: pointer;
+  display: block;     /* transforma em bloco */
+  margin: 0 auto;     /* centraliza horizontal */
+}
+
+.gradient-title-login {
+  font-size: 150px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: -4.5rem;
+  background: linear-gradient(90deg, var(--primary), var(--primary-2));
+  align-self: flex-start; /* empurra só o título para o topo do card */
+  margin-top: -50px; /* garante que não desça */
+
+  /* ESSA parte é o que muda o "fundo" em "texto" */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Firefox */
+  background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+
+.gradient-subtitle-login {
+  margin-top: -40px;
+  font-size: 38px;
+  font-weight: 800;
+  text-align: center;
+  background: linear-gradient(90deg, #ee970f, #fac07c);
+  margin-bottom: 4.5rem;
+  /* ESSA parte é o que muda o "fundo" em "texto" */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Firefox */
+  background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.titulo-imagem-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+  margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+.titulo-imagem-login img {
+  max-width: 510px; /* Ajuste conforme necessário */
+  height: auto;
+}
