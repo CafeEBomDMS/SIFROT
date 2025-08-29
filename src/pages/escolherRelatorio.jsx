@@ -18,7 +18,6 @@ export default function EscolherRelatorios() {
           <h1 className="titulo"
               style={{
                 textAlign: "center",
-                marginBottom: "24px",
                 fontWeight: "800",
                 marginTop: "-10px",
                 marginBottom: "10px",

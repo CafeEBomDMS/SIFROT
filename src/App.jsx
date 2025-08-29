@@ -6,6 +6,7 @@ import Teste from "./pages/teste.jsx";
 import { Background } from "./components/background.jsx";
 import EscolherRelatorios from "./pages/escolherRelatorio.jsx";"./escolherRelatorio.jsx";
 import EscolherVeiculo from "./pages/escolherVeiculo.jsx";
+import EscolherCadastro from "./pages/escolherCadastro.jsx";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/teste" element={<Teste />} />
           <Route path="/escolherVeiculo" element={<EscolherVeiculo />} />
           <Route path="/escolherRelatorios" element={<EscolherRelatorios />} />
+          <Route path="/escolherCadastro" element={<EscolherCadastro />} />
         </Routes>
       </Background>
     </BrowserRouter>

@@ -1,7 +1,7 @@
 import "../styles/escolherRelatorio.css";
 import { Sidebar } from "../components/sidebar.jsx";
 
-export default function EscolherVeiculo() {
+export default function EscolherCadastro() {
   return (
     <div className="app">
       {/* Sidebar */}
@@ -22,7 +22,7 @@ export default function EscolherVeiculo() {
                 fontWeight: "800",
                 marginTop: "-10px",
               }}          
-          >Escolha a categoria do veículo</h1>
+          >Vizualizar perfis</h1>
           {/* Grid de relatórios */}
           <div className="relatorios-grid">
             <div className="relatorio-card">
@@ -41,6 +41,14 @@ export default function EscolherVeiculo() {
               <p className="descricao">veículos de carga <br/>acima de 3,5 toneladas <br/>não articulado</p>
             </div>
 
+            <div className="relatorio-card">
+              <div>
+                <img src="/images/iconeD.png" alt="iconeMotorista" />
+              </div>
+              <h3 className="subtitulo">Categoria D</h3>
+              <p className="descricao">Veículos com capacidade minima de 8+ passageiros</p>
+            </div>
+            
             <div className="relatorio-card">
               <div>
                 <img src="/images/iconeD.png" alt="iconeMotorista" />
