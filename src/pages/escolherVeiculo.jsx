@@ -1,7 +1,7 @@
 import "../styles/escolherRelatorio.css";
 import { Sidebar } from "../components/sidebar.jsx";
 
-export default function EscolherRelatorios() {
+export default function EscolherVeiculo() {
   return (
     <div className="app">
       {/* Sidebar */}
@@ -21,30 +21,33 @@ export default function EscolherRelatorios() {
                 marginBottom: "24px",
                 fontWeight: "800",
                 marginTop: "-10px",
-                marginBottom: "10px",
+                marginBottom: "13px",
               }}          
-          >Vizualizar Relatório</h1>
+          >Escolha a categoria do veículo</h1>
           {/* Grid de relatórios */}
           <div className="relatorios-grid">
             <div className="relatorio-card">
               <div>
-                <img src="/images/iconeLogistica.png" alt="iconeLogistica" />
+                <img src="/images/iconeB.png" alt="iconeLogistica" />
               </div>
-              <h3 className="subtitulo">Logística</h3>
+              <h3 className="subtitulo">Categoria B</h3>
+              <p className="descricao">veículos com capacidade maxima de 4 passageiros</p>
             </div>
 
             <div className="relatorio-card">
               <div>
-                <img src="/images/iconeRequisitante.png" alt="iconeRequisitante" />
+                <img src="/images/iconeC.png" alt="iconeRequisitante" />
               </div>
-              <h3 className="subtitulo">Requisitantes</h3>
+              <h3 className="subtitulo">Categoria C</h3>
+              <p className="descricao">veículos de carga <br/>acima de 3,5 toneladas <br/>não articulado</p>
             </div>
 
             <div className="relatorio-card">
               <div>
-                <img src="/images/iconeMotorista.png" alt="iconeMotorista" />
+                <img src="/images/iconeD.png" alt="iconeMotorista" />
               </div>
-              <h3 className="subtitulo">Motoristas</h3>
+              <h3 className="subtitulo">Categoria D</h3>
+              <p className="descricao">Veículos com capacidade minima de 8+ passageiros</p>
             </div>
           </div>
         </section>

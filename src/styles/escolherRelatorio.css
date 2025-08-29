@@ -13,23 +13,42 @@
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 
-  /* tamanho fixo */
-  width: 180px;   /* largura fixa */
-  height: 200px;  /* altura fixa */
+  width: 180px;
+  height: 200px;
 
   display: flex;
   flex-direction: column;
-  justify-content: center; /* centraliza verticalmente */
-  align-items: center;     /* centraliza horizontalmente */
+  justify-content: center;
+  align-items: center;
 }
 
-.relatorio-card img {
-  width: 64px;   /* tamanho fixo para todos os ícones */
+.relatorio-card:hover {
+  transform: translateY(-10px) scale(1.03); /* 👈 sobe 10px */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2); /* sombra mais forte */
+}
+
+.relatorio-card-van img {
+  width: 124px;   /* tamanho fixo para todos os ícones */
   height: 64px;
   object-fit: contain;
   margin-bottom: -20px;
   margin-top: -30px;
+}
+
+.relatorio-card img {
+  width: 124px;   /* tamanho fixo para todos os ícones */
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: -20px;
+  margin-top: -30px;
+}
+
+.descricao {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: -10px;
+  line-height: 1.4;
 }

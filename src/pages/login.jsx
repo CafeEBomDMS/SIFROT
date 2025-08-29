@@ -7,7 +7,7 @@ export default function Login() {
 
   return (
     <main className="content-login">
-      <section className="card">''
+      <section className="card">
         <div className="titulo-imagem-login">
           <img src="/images/logoSifrot.png" alt="Microsoft Logo" />
         </div>

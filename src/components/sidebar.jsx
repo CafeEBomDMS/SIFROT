@@ -13,6 +13,9 @@ export function Sidebar({ children }) {
           ⚙️
         </button>
       </nav>
+
+      {/* Renderiza qualquer conteúdo passado como children */}
+      {children}
     </aside>
   );
 }

@@ -92,11 +92,13 @@ body {
   padding: 24px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
   border: 1px solid var(--border);
+  width: 100%;       /*reponsividade*/
+  max-width: 900px; /* nunca passa de 900px */
 }
 
 .titulo {
   margin: 0 0 16px 0;
-  font-size: 22px;
+  font-size: 35px;
   font-weight: 800;
 }
 
@@ -154,6 +156,21 @@ body {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
 }
+
+.tipo-cnh {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* espaçamento entre os checkboxes */
+  font-weight: 500; /* deixa o título um pouco mais destacado */
+}
+
+.tipo-cnh input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #1d2d78; /* cor dos checkboxes */
+}
+
+
 .field {
   display: flex;
   flex-direction: column;
