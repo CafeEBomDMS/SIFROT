@@ -27,34 +27,30 @@ export default function EscolherCadastro() {
           <div className="relatorios-grid">
             <div className="relatorio-card">
               <div>
-                <img src="/images/iconeB.png" alt="iconeLogistica" />
+                <img src="/images/iconeFrota.png" alt="iconeLogistica" />
               </div>
-              <h3 className="subtitulo">Categoria B</h3>
-              <p className="descricao">veículos com capacidade maxima de 4 passageiros</p>
+              <h3 className="subtitulo">Frota de veículos</h3>
             </div>
 
             <div className="relatorio-card">
               <div>
-                <img src="/images/iconeC.png" alt="iconeRequisitante" />
+                <img src="/images/iconeLogistica.png" alt="iconeRequisitante" />
               </div>
-              <h3 className="subtitulo">Categoria C</h3>
-              <p className="descricao">veículos de carga <br/>acima de 3,5 toneladas <br/>não articulado</p>
+              <h3 className="subtitulo">Logística e Administração</h3>
             </div>
 
             <div className="relatorio-card">
               <div>
-                <img src="/images/iconeD.png" alt="iconeMotorista" />
+                <img src="/images/iconeMotorista.png" alt="iconeMotorista" />
               </div>
-              <h3 className="subtitulo">Categoria D</h3>
-              <p className="descricao">Veículos com capacidade minima de 8+ passageiros</p>
+              <h3 className="subtitulo">Motoristas</h3>
             </div>
             
             <div className="relatorio-card">
               <div>
-                <img src="/images/iconeD.png" alt="iconeMotorista" />
+                <img src="/images/iconeRequisitante.png" alt="iconeMotorista" />
               </div>
-              <h3 className="subtitulo">Categoria D</h3>
-              <p className="descricao">Veículos com capacidade minima de 8+ passageiros</p>
+              <h3 className="subtitulo">Requisitantes</h3>
             </div>
           </div>
         </section>

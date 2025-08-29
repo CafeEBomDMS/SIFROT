@@ -27,7 +27,7 @@ export default function EscolherRelatorios() {
           <div className="relatorios-grid">
             <div className="relatorio-card">
               <div>
-                <img src="/images/iconeLogistica.png" alt="iconeLogistica" />
+                <img src="/images/icone.png" alt="iconeLogistica" />
               </div>
               <h3 className="subtitulo">Logística</h3>
             </div>
